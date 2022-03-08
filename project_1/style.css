@@ -1,0 +1,56 @@
+body {
+    background-color: #201e20;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    left: 10px;
+    color: #e0a96d;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+label {
+    color: #e0a96d;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+}
+
+input {
+    background-color: #ddc3a5;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    margin-left: 10px;
+    max-width: 100px;
+}
+
+button {
+    background-color: #ddc3a5;
+    color: #201e20; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+}
+
+
+article {
+    float: right;
+    width: 60%;
+}
+
+#message {
+    color: #e0a96d;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+}
+
+
+

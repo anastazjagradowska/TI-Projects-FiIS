@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext);
+
+* {
+    box-sizing: border-box; 
+    margin: 0px;
+    margin-top: 7px;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {  
+    background-color: #302c2c;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    color:#6818e8;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color:#6818e8;
+}
+
+.menu-wrapper {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 2px;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: #6818e8;
+ }
+
+ .btn:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+ }
+
+ .btn:hover {
+    color: #6818e8;
+    border-color: currentColor;
+    background-color: white;
+    cursor: pointer;
+ }
+
+.main-content {
+    width: 1200px;
+    min-height: 600px;
+    margin: 0 auto;
+}
+
+.questionnaire, .registration, .login {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.questionnaire-wrapper {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questionnaire-wrapper, .registration, .login p {
+    width: 400px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.questionnaire-wrapper .wrapper-item {
+    width: 160px;
+    font-size: 18px;
+    text-align: left;
+    color: #c0c0cc;
+    
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.btn-input {
+    width: 120px;
+    margin: 0 auto;
+}
+
+p {
+    color: #6818e8;
+}
+
+p.error {
+    color: rgb(223, 144, 174);
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+table {
+    width: 600px;
+    height: auto;
+    border: 2px solid #302c2c;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    color:white;
+}
+
+.row__main {
+    background-color: #948f9b;
+}
+
+.row__info {
+    background-color: #43404b;
+    color: white;
+    border-color: #302c2c;
+}
+
+#first, #second, #third {
+    display: block;
+    width: 650px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    accent-color: #6818e8;
+}
+
+#label-que {
+    color:#6818e8;
+}
+
+.chart {
+    position: relative;
+    width: 33%;
+    float: left;
+}
